@@ -33,7 +33,7 @@ function mouseDownEvent(e) {
 }
 function mouseMoveEvent(e) {
   if(canDraw) {
-    canDraw(e.pageX, e.pageY);
+    draw(e.pageX, e.pageY);
   }
 }
 function mouseUpEvent() {
